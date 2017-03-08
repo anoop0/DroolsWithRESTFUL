@@ -1,3 +1,3 @@
-#this is test for stash
+Drools Rule Engine with RESTful services
 
-#added
+Using  RESTful web service call drools rules engine.
