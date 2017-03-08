@@ -22,7 +22,7 @@ public class DroolsRestController {
 
     DecimalFormat format = new DecimalFormat("0.#");
 
-    @RequestMapping(value="doMaths/{operation}/{num1}/{num2}", method = RequestMethod.GET,
+    @RequestMapping(value="doMaths/{operation}/{num1:.+}/{num2:.+}", method = RequestMethod.GET,
         produces = "application/json")
     public Map basicOperation(@PathVariable("operation") String operation, @PathVariable("num1") String num1, @PathVariable("num2") String num2) {
 
